@@ -34,9 +34,8 @@
 								<?php the_post_thumbnail(); ?>
 							</div>
 						<?php endif; ?>
-						<?php the_excerpt(); ?>
+						<?php the_content(); ?>
 
-						<a class="button" href="<?php the_permalink(); ?>">Read More</a>
 					</article> 
 				<?php endwhile; ?>
 			<?php else : ?>
